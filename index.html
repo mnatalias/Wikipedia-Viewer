@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wikipedia Viewer</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+    <div class="buscador">
+        <div class="row">
+            <h1>Busca un tema en Wikipedia</h1>
+        </div>
+        <div class="row">
+            <div class="form-inline">
+                <input class="form-control" id="termino"/>
+                <button id="boton" type="button" class="btn btn-default"><span class="ion-search"></span></button>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="borde">
+        		<p class="azar"><a href="https://es.wikipedia.org/wiki/Special:Random" target="_blank">o ver un artículo al azar</a></p>
+        	</div>
+        </div>
+        <div class="row" id="resultado">
+        </div>
+    </div>
+</div>
+</body>
+</html>
