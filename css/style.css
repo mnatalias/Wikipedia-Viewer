@@ -1,7 +1,7 @@
 @import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,500";
 body {
-  background: #607D8B; }
+  background: #f3f3f3; }
 
 a:hover, a:focus {
   text-decoration: none; }
@@ -15,7 +15,7 @@ a:hover, a:focus {
   .container .buscador h1 {
     margin-bottom: 50px;
     font-size: 27px;
-    color: #ffffff; }
+    color: #052b9a; }
   .container .buscador .borde {
     border: 1px solid white;
     padding-bottom: 10px;
@@ -23,7 +23,12 @@ a:hover, a:focus {
     margin: auto;
     margin-top: 20px; }
     .container .buscador .borde .azar {
-      margin-top: 20px; }
+      margin-top: 20px;
+      background: #ffe68f;
+      display: inline-block;
+      padding: 10px;
+      border-radius: 3px;
+      margin-bottom: 60px; }
       .container .buscador .borde .azar a {
         color: #353535;
         font-size: 14px;
@@ -31,21 +36,25 @@ a:hover, a:focus {
         color: #FFEB3B;
         text-transform: uppercase; }
         .container .buscador .borde .azar a:hover, .container .buscador .borde .azar a:focus {
-          text-decoration: none; }
+          text-decoration: none;
+          color: #353535; }
   .container .buscador .btn.active.focus, .container .buscador .btn.active:focus, .container .buscador .btn.focus, .container .buscador .btn:active.focus, .container .buscador .btn:active:focus, .container .buscador .btn:focus {
     outline: none; }
   .container .buscador #resultado {
     margin: 35px 0; }
 
 .titulo {
-  color: #fff;
-  font-size: 30px; }
+  color: #574d61;
+  font-size: 30px;
+  background: #dcdcdc;
+  border-radius: 6px;
+  padding: 25px; }
 
 .descStyle {
-  background: #ffeb3b;
+  background: #ffee75;
   color: #3f51b5;
-  padding: 10px;
-  margin-bottom: 27px;
-  border-radius: 20px; }
+  padding: 45px;
+  margin-bottom: 55px;
+  border-radius: 6px; }
 
 /*# sourceMappingURL=style.css.map */
