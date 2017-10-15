@@ -33,11 +33,10 @@ a:hover, a:focus {
         color: #353535;
         font-size: 14px;
         font-weight: 500;
-        color: #FFEB3B;
         text-transform: uppercase; }
         .container .buscador .borde .azar a:hover, .container .buscador .borde .azar a:focus {
           text-decoration: none;
-          color: #353535; }
+          color: #052b9a; }
   .container .buscador .btn.active.focus, .container .buscador .btn.active:focus, .container .buscador .btn.focus, .container .buscador .btn:active.focus, .container .buscador .btn:active:focus, .container .buscador .btn:focus {
     outline: none; }
   .container .buscador #resultado {
